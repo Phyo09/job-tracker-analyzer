@@ -8,3 +8,4 @@ class JobApplication(db.Model):
     role = db.Column(db.String(100))
     status = db.Column(db.String(50))
     applied_date = db.Column(db.String(20))
+    resume_filename = db.Column(db.String(200))
