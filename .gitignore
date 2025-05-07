@@ -172,3 +172,26 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# React
+node_modules/
+build/
+
+# System
+.DS_Store
+.env
+
+# VS Code settings (if team is using personal configs)
+.vscode/
+
+# Logs
+*.log
+
+# Resume storage folder (if you don’t want uploaded resumes in Git)
+backend/resumes/
